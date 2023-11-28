@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none; 
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 13vh;
+    background-color: black;
+    background-size: cover; 
+}
+
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.header .navbar .logo{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.header .navbar .logo a{
+    color: #fff;
+}
+
+.header .navbar .logo a:hover{
+    color: #c32865;
+}
+
+.header .navbar .menu ul{
+    margin-left: 192px;
+}
+
+.header .navbar .menu ul li{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.header .navbar .menu ul li a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.header .contact-info ul{
+    margin-left: 350px;
+}
+
+.header .contact-info ul{
+    margin-left: 41px;
+}
+
+.header .contact-info ul li{
+    display: inline-block;
+}
+
+.header .contact-info ul li a{
+    color: #fff;
+    font-size: 17px;
+    transition: all 0.3s;
+}
+
+.header .contact-info ul li a:hover{
+    color: #c32865;
+}
+
+.header .contact-info ul li a.sep{
+    margin: 0 20px;
+    opacity: 0.3;
+}
+
+.banner{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+}
+
+.banner .content{
+    margin-left: 40px;
+    color: #fff;   
+}
+
+.banner .content h1{
+    color: #c32865;
+}
+
+.banner .content h3{
+    margin-left: 200px;
+    color: #fff;
+}
+
+.banner .cards{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#cards-content{
+    height: 370px;
+    width: 350px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+#cards-content:hover{
+   height: 375px;
+   transform: scaleY(105%)
+}
+
+.cards .card1 .picture1{
+    height: 175px;
+    width: 350px;
+    background-image: url(./images/audi-clone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-title{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.project-title .project-links a{
+    color: #fff;
+}
+
+.project-title .project-links a:hover{
+    color: #c32865;
+}
+
+.project-title .project-links a i{
+    height: 20px;
+    width: 20px;
+}
+
+#project-text{
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skill-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill-box div{
+    background-color: #c32865;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cards .card2 .picture2{
+    height: 175px;
+    width: 350px;
+    background-image: url(./images/sslc-webportal-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cards .card3 .picture3{
+    height: 175px;
+    width: 350px;
+    background-image: url(./images/bouncing-ball-picture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.skills-banner{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+}
+
+.skills-banner .skills-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-banner .skills-content .components{
+    /* border: 1px solid #fff; */
+    height: 200px;
+    width: 220px;
+    text-align: center;
+}
+
+.skills-banner .skills-content .components span{
+    background-color: #c32865;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.skills-banner h1{
+    color: #c32865;
+    margin-left: 40px;
+}
+
+.skills-banner .skills-content .components h3{
+    color: #fff;
+    font-style: oblique;
+}
+
+.footer{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .copy-right{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .copy-right p{
+    margin-top: 10px;
+    position: sticky;
+}
+
+.footer .social-icons{
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .social-icons div:hover{
+    background-color: #c32865;
+    size: 120%;
+}
+
+.footer .social-icons div{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social-icons a{
+    color: #fff;
+}
+
+.footer .copy-right p{
+    color: #fff;
+}

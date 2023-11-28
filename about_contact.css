@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none; 
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 13vh;
+    background-color: black;
+    background-size: cover; 
+}
+
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.header .navbar .logo{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.header .navbar .logo a{
+    color: #fff;
+}
+
+.header .navbar .logo a:hover{
+    color: #c32865;
+}
+
+.header .navbar .menu ul{
+    margin-left: 192px;
+}
+
+.header .navbar .menu ul li{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.header .navbar .menu ul li a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.header .contact-info ul{
+    margin-left: 350px;
+}
+
+.header .contact-info ul{
+    margin-left: 41px;
+}
+
+.header .contact-info ul li{
+    display: inline-block;
+}
+
+.header .contact-info ul li a{
+    color: #fff;
+    font-size: 17px;
+    transition: all 0.3s;
+}
+
+.header .contact-info ul li a:hover{
+    color: #c32865;
+}
+
+.header .contact-info ul li a.sep{
+    margin: 0 20px;
+    opacity: 0.3;
+}
+
+.banner{
+    height: 82vh;
+    width: 100%;
+    background-color: black;
+}
+
+.banner .about{
+    height: 200px;
+    width: 1000px;
+    border: 1px solid black;
+    color: #fff;
+    margin-left: 147px;
+}
+
+.banner .about h1{
+    margin-top: 50px;
+    color: #c32865;
+}
+
+.banner .contact{
+    height: 300px;
+    width: 1000px;
+    border: 1px solid black;
+    margin-left: 147px;
+}
+
+.banner .contact h1{
+    margin-top: 50px;
+    color: #c32865;
+}
+
+
+.banner .contact i{
+    color: #c32865;
+}
+
+.banner .contact a{
+    color: #fff;
+}
+
+.banner .contact a:hover{
+    color: #c32865;
+}
+
+.banner .contact p{
+    color: #fff;
+}
+
+.footer{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .copy-right{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .copy-right p{
+    margin-top: 10px;
+    position: sticky;
+}
+
+.footer .social-icons{
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .social-icons div:hover{
+    background-color: #c32865;
+    size: 120%;
+}
+
+.footer .social-icons div{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social-icons a{
+    color: #fff;
+}
+
+.footer .copy-right p{
+    color: #fff;
+}
